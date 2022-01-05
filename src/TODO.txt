@@ -1,0 +1,24 @@
+Running Software
+cargo run -- -flag
+
+Flow of Software
+
+Give the software a google search 
+	-h help function
+	-s "example search"
+	-i #### of images to pull
+	-a algorithm
+	-r ratio of accuracy
+	-n # of images to generate
+	-t Temp file flag, will cleanup images after finished
+Software will scrape the web for images regarding the search to the amount specified
+
+Dowload all to a folder labeled search-date
+
+Input all into the algoritm of choice
+
+Generate the number of images according to the algorithm 
+
+Save files to folder labeled generated-images-search-date
+
+sear

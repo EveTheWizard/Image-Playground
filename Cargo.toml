@@ -1,0 +1,14 @@
+[package]
+name = "Image-Playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11.8"
+image = "0.23.14"
+clap = {version = "~2.27.0", features = ["yaml"]}
+tensorflow = "0.17.0"
+chrono = "0.4.19"
+
